@@ -1,0 +1,19 @@
+{
+  "name": "falcon-desktop",
+  "version": "3.0.0",
+  "branch": "3.0",
+  "license": "GPL-2.0",
+  "description": "Falcon Desktop - decentralized marketplace, private currency, messaging & self-governance",
+  "homepage": "https://falcon.io",
+  "keywords": [
+    "falcon"
+  ],
+  "author": "Falcon contributors",
+  "scripts": {
+    "generate:versions": "node modules/clientBinaries/generateVersions.js"
+  },
+  "productName": "falcon-desktop",
+  "dependencies": {
+    "got": "^9.6.0"
+  }
+}
